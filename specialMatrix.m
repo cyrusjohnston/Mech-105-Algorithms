@@ -1,6 +1,7 @@
 function [A] = specialMatrix(n,m)
-% This function should return a matrix A as described in the problem statement
-% Inputs n is the number of rows, and m the number of columns
+% This function returns a matrix A as described in the problem statement
+% Inputs: 
+%n=number of rows, m=number of columns
 c='specialMatrix';
 b=nargin(c);
 if b~=2
