@@ -1,9 +1,16 @@
 function [root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit, varargin)
 %falsePosition finds the root of a function using false position method
-%Inputs: A function "func," upper and lower bounds "xl" and "xu," stopping
-%criterion "es," and the maximum iterations "maxit"
-%Outputs: The location of the root "root," the value of F(x) at that point
-%"fx," the approximate error "ea," and the number of iterations "iter"
+%Inputs: 
+% func= function being evaluated
+% xl = lower bound
+% xu = upper bound
+% es = stopping criterion
+% maxit = maximum iterations
+%Outputs:
+% root = location of root
+% f(x) = value of f(x) at the location of the root
+% ea= approximate error
+% iter= number of iterations
 if nargin <4
     es=.0001;
     maxit=200;
