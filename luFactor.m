@@ -1,7 +1,11 @@
 function [L, U, P] = luFactor(A)
 % This function computes the LU decomposition of a matrix.
-%Inputs: 'a' square matrix
-%Outputs: lower and upper triangular matrices and a pivot matrix
+%Inputs: 
+% A=square matrix
+%Outputs: 
+% L=Lower Triangular Matrix
+% U=Upper Triangular Matrix
+% P=Pivot Matrix
 plz=ismatrix(A);
 if plz == 0
     error('A needs to be a matrix')
