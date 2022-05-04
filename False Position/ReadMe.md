@@ -1,4 +1,4 @@
-This folders contains an algorithm that uses the false position technique to determine the location of a root of a function.
+This folders contains an algorithm that uses the false position technique to determine the location of a root of a function. The false position method, while does work nearly all the time, is generally very slow.
 1. *Inputs*
   **func** = the function being evaluated
   **xl** = the lower bound
